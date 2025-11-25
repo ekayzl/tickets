@@ -10,5 +10,8 @@
   "dependencies": {
     "puppeteer": "^21.3.8",
     "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
