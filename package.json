@@ -1,20 +1,14 @@
 {
   "name": "tickets-bot",
   "version": "1.0.0",
-  "description": "Bot para monitorar tickets e enviar para Telegram",
+  "description": "Bot para enviar tickets pendentes ao Telegram",
   "type": "module",
   "main": "tickets.js",
   "scripts": {
     "start": "node tickets.js"
   },
   "dependencies": {
-  "node-fetch": "^3.3.2",
-  "puppeteer": "^21.3.8",
-  "dotenv": "^16.3.1"
-  },
-  "engines": {
-    "node": ">=18"
-  },
-  "author": "Você",
-  "license": "MIT"
+    "puppeteer": "^21.3.8",
+    "node-fetch": "^3.3.2"
+  }
 }
